@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Añadir Minijuego</title>
+    </head>
+    <body>
+        <h2>Añadir Minijuego</h2>
+        <form action="../clases/crudAnadir.php" method="post">
+            <fieldset>
+                <p>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" required>
+                </p>
+                <p>
+                    <label for="url">URL:</label>
+                    <input type="text" name="url" required>
+                </p>
+                <p>
+                    <label for="descripcion">Descripcion:</label>
+                    <input type="text" name="descripcion" required>
+                </p>
+                <input type="submit" value="Añadir">
+            </fieldset>
+        </form>
+    </body>
+</html>
